@@ -15,8 +15,8 @@ ASL Gesture Recognition: Classifies gestures for the English alphabet (A-Z) and 
 Real-Time Detection: Provides real-time feedback on hand gestures displayed in the video feed.
 
 Custom Model: Uses a custom-trained Keras model to recognize gestures based on hand positioning.
-
-## Requirements
+## 1.Create Environment first 
+## 2.Requirements
 Before running the project, ensure the following dependencies are installed:
 
 OpenCV - For image processing and camera access.
