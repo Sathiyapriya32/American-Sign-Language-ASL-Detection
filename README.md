@@ -21,25 +21,26 @@ Before running the project, ensure the following dependencies are installed:
 
 OpenCV - For image processing and camera access.
 
-bash
-Copy code
+```bash
 pip install opencv-python
+```
 cvzone - For hand detection and classification.
 
-bash
-Copy code
+```bash
 pip install cvzone
+```
+
 NumPy - For numerical operations.
 
-bash
-Copy code
+```bash
 pip install numpy
+```
 Keras - For machine learning model.
 
-bash
-Copy code
+```bash
 pip install keras
-Setup
+```
+## Setup
 Clone the repository or download the project files.
 
 ## Make sure you have the following files in your project directory:
@@ -56,14 +57,14 @@ test.py (for testing the ASL detection).
 
 ## Set up a virtual environment and install the dependencies using the following command:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Run the test script to start real-time ASL detection:
+```
+## Run the test script to start real-time ASL detection:
 
-bash
-Copy code
+```bash
 python test.py
+```
 
 ## How It Works
 Hand Detection: The HandDetector from the cvzone library is used to detect hands in the video feed.
